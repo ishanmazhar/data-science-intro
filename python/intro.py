@@ -43,14 +43,14 @@ print(file2.to_string()) # file2.to_string() prints the full Dataset
 # Read / open json files as DF
 
 import pandas as pd
-file3 = pd.read_json('data.js')
+file3 = pd.read_json('data.json')
 print('File-3')
 print(file3)  # prints the first 5 and the last 5 rows of the Dataset
 print(file3.to_string()) # file2.to_string() prints the full Dataset
 
 # Printing first rows
 import pandas as pd
-file3 = pd.read_json('data.js')
+file3 = pd.read_json('data.json')
 print('First 10 rows\n')
 print(file3.head(10))  # prints first 10 rows
 print('First 5 rows\n')
@@ -58,7 +58,7 @@ print(file3.head())  # prints first 5 rows
 
 # Printing last rows
 import pandas as pd
-file3 = pd.read_json('data.js')
+file3 = pd.read_json('data.json')
 print('Last 10 rows\n')
 print(file3.tail(10))  # prints first 10 rows
 print('Last 5 rows\n')
@@ -66,22 +66,22 @@ print(file3.tail())  # prints first 5 rows
 
 # Printing info of data
 import pandas as pd
-file3 = pd.read_json('data.js')
+file3 = pd.read_json('data.json')
 print(file3.info()) # prints info of data
 
 # Counting the number of rows
 import pandas as pd
-file3 = pd.read_json('data.js')
+file3 = pd.read_json('data.json')
 print(file3.shape[0]) # prints the number of rows
 
 # Counting the number of columns
 import pandas as pd
-file3 = pd.read_json('data.js')
+file3 = pd.read_json('data.json')
 print(file3.shape[1]) # prints the number of columns
 
 # Data Cleaning and Describing
 import pandas as pd
-file3 = pd.read_json('data.js')
+file3 = pd.read_json('data.json')
 file3.dropna(axis=0, inplace=True) # dropna removes the missing / NaN values; axis=0 removes the entire row
 print(file3.to_string()) # file2.to_string() prints the full Dataset
 print(file3.info())
