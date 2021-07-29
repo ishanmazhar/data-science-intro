@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+/* button-styling */
+.link-btn{
+  background-color: #E76F51;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 30px;
+  border: none;
+  margin-top: 30px;
+}
+.modal-btn{
+  background-color: #E76F51;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 30px;
+  border: none;
+}
+/* header */
+header{
+  background-color: #264653;
+}
+.banner-section h1{
+  font-size: 48px;
+  font-weight: 500;
+  margin: 30px 0;
+  color: white;
+}
+.banner-section p{
+  color: #E0E0E0;
+}
+.banner-section:hover .banner-img img{
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+/* feature-section */
+.feature-section{
+  margin: 50px 0;
+}
+.feature-section h1{
+  font-size: 48px;
+  font-weight: 600;
+}
+.feature-section p{
+  color: #E76F51;
+}
+.feature-section hr{
+  border: 2px solid #E76F51;
+  width: 50px;
+  margin: -10px auto 0;
+}
+.feature-img{
+  padding: 0 50px;
+}
+.img-grayscale{
+  filter: grayscale(100%);
+}
+.feature-img img:hover{
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+/* clients-section */
+.clients-section{
+  margin: 100px 0;
+}
+.clients-section h1{
+  font-size: 48px;
+  font-weight: 500;
+}
+.clients-section .headings span{
+  color: #E76F51;
+}
+.clients-section img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.clients-section p{
+  color: #6C6C6C;
+}
+.fa-star{
+  color: orange;
+}
+/* faq-section */
+.faq-section{
+  margin: 100px 0 ;
+}
+.faq-section h1{
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 100px;
+}
+.faq-section .headings span{
+  color: #E76F51;
+}
+.faq-img img{
+  width: 430px;
+  height: 420px;
+}
+.accordion-button{
+  font-size: 20px;
+  font-weight: 600;
+}
+/* products-section */
+.products-section{
+  margin: 100px 0 ;
+}
+.products-section h1{
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 100px;
+}
+.products-section .headings span, .product-title span{
+  color: #E76F51;
+}
+.products-section img{
+  width: 200px;
+  height: 200px;
+  margin: 10px auto;
+}
+.products-section .card:hover{
+  transform: translateY(-15px);
+  transition-duration: 0.3s;
+}
+/* subscribe-section */
+.subscribe-info{
+  margin: 150px 0;
+}
+.subscribe-info p{
+  color: #E76F51;
+  font-size: 20px;
+  font-weight: 500;
+}
+.subscribe-bg{
+  background-color: #264653;
+}
+input{
+  padding: 5px;
+}
+/* footer */
+footer p{
+  margin: 50px auto 0px;
+}
