@@ -84,3 +84,10 @@ print(df.duplicated()) # returns true for duplicates
 # Removing Duplicate Rows
 df.drop_duplicates(inplace=True)
 print(df) 
+
+
+# Finding correlations between each column in the dataset 
+# Correlation coefficients ranges between [-1, 1]
+# a good correlation is somewhat > 0.6 or < -0.6 
+
+print(df.corr())  
